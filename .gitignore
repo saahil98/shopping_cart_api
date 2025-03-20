@@ -1,0 +1,12 @@
+.env
+__pycache__/
+.DS_Store
+.venv
+.venv_latest_crew
+config
+doc
+memory
+tools
+agent.py
+crew.py
+tasks.py
