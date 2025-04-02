@@ -11,42 +11,42 @@ products_db = [
         "ProdName": "LG 185 L 5 Star Inverter Direct-Cool Single Door Refrigerator", 
         "Brand": "LG",
         "Model": "GL-D201ABEU",
-        "Price": 17490
+        "productprice": 17490
     },
     {
         "ProdID": 2, 
         "ProdName": "LG 322 L 3 Star Frost-Free Smart Inverter Double Door Refrigerator (GL-S342SDSX, Dazzle Steel, Convertible with Express Freeze)", 
         "Brand": "LG",
         "Model": "GL-S342SDSX",
-        "Price": 36990
+        "productprice": 36990
     },
     {
         "ProdID": 3, 
         "ProdName": "Bosch 10kg 5 Star Anti Stain & AI Active Water Plus Fully Automatic Front Load Washing Machine with Built-in Heater (WGA252ZSIN, Pretreatment, Iron Steam Assist & Allergy Plus, Silver)", 
         "Brand": "Bosch",
         "Model": "WGA252ZSIN",
-        "Price": 42990
+        "productprice": 42990
     },
     {
         "ProdID": 4, 
         "ProdName": "Samsung 12 kg, 5 Star, AI Ecobubble, Super Speed, Wi-Fi, Hygiene Steam with Inbuilt Heater, Digital Inverter, Fully-Automatic Front Load Washing Machine (WW12DG6B24ASTL, Navy)", 
         "Brand": "Samsung",
         "Model": "WW12DG6B24ASTL",
-        "Price": 46990
+        "productprice": 46990
     },
     {
         "ProdID": 5, 
         "ProdName": "Sony Alpha ILCE-6100L APS-C Camera (16-50mm Lens) | 24.2 MP | Fast Auto Focus, Real-time Eye AF, Real-time Tracking | 4K Vlogging Camera – Black", 
         "Brand": "Sony",
         "Model": "ILCE-6100L",
-        "Price": 61490
+        "productprice": 61490
     },
     {
         "ProdID": 6, 
         "ProdName": "Fujifilm X-T5 40MP APS-C X-Trans Sensor | Pixel Shift | IBIS System | Ultra High Resolution Mirrorless Camera | 6.2k 30p | Subject Tracking | 1/180000 Shutter Speed | Touchtracking | Quick Lever for Photo/Video - S", 
         "Brand": "Fujifilm",
         "Model": "203399",
-        "Price": 143000
+        "productprice": 143000
     }
 ]
 
@@ -87,3 +87,6 @@ async def calculate_bill():
         })
 
     return BillResponse(Products = bill_items, Total= total)
+
+
+
